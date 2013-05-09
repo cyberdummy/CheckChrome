@@ -3,6 +3,7 @@ CheckChrome
 
 CheckFox extension for Chrome. Allows toggling checkboxes via selection.
 
+Screenshots: https://github.com/cyberdummy/CheckChrome/wiki
 
 To Install
 =========
