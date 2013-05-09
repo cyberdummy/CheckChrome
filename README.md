@@ -9,6 +9,6 @@ To Install
 
 git://github.com/cyberdummy/CheckChrome.git
 
-Then go to chrome extenstions page (chrome://extensions/) check "Developer Mode".
+Then go to chrome extentions page (chrome://extensions/) check "Developer Mode".
 
 Click "Load unpacked extension.." select directory.
