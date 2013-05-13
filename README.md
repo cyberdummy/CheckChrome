@@ -13,3 +13,7 @@ git clone git://github.com/cyberdummy/CheckChrome.git (or download files to a di
 Then go to chrome extentions page (chrome://extensions/) check "Developer Mode".
 
 Click "Load unpacked extension.." select directory.
+
+== OR ==
+
+go here: https://chrome.google.com/webstore/detail/bgjhmmigallkdooefglpgfamapoconfo
