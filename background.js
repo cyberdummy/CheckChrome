@@ -16,8 +16,8 @@ function onClickHandler(info, tab) {
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 
 // Set up context menu tree at install time.
-chrome.runtime.onInstalled.addListener(function() {
-  // Create one test item for each context type.
+function checkChrome_init () {
+	// Create one test item for each context type.
   var contexts = ["selection"];
 
   var on_id = chrome.contextMenus.create({"title": "Check", "contexts":["selection"], "id": "checkchrome-on"});
@@ -28,4 +28,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
   var inverse_id = chrome.contextMenus.create({"title": "Inverse", "contexts":["selection"], "id": "checkchrome-inverse"});
   console.log("check inverse : " + inverse_id);
-});
+}
+
+chrome.runtime.onStartup.addListener(checkChrome_init());
+//chrome.runtime.onInstalled.addListener(checkChrome_init());
